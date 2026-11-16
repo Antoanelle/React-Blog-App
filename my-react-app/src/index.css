@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Cantarell", sans-serif;
+    box-sizing: border-box;
+    min-height: auto;
+}
+
+.light{
+    background-color: #ffffff;
+    color: #2c2929;
+}
+
+.light header{
+    background-color: #9fa7cf;
+}
+
+.light header, .light header li, .light header a, .light button{
+    color:#ffffff;
+}
+
+.light button{
+    color:#ffffff;
+    background-color: #9fa7cf;
+}
+
+.light footer{
+    background-color: #9fa7cf;
+    color:#ffffff;
+}
+
+.light a{
+    color: #2c2929;
+}
+
+.light postList:hover{
+    color:#2c2929;
+}
+
+
+.dark{
+    background-color: #191D32;
+    color: #ffffff;
+}
+
+.dark header{
+    background-color: #191D32;
+    color:#ffffff;
+}
+
+.dark header, .dark li, .dark a, .dark button{
+    color: #ffffff;
+}
+
+.dark button{
+    color:#ffffff;
+    background-color: #191D32;
+}
+
+.dark a{
+    color:#ffffff;
+}
+
+
+

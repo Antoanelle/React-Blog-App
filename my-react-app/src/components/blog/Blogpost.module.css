@@ -1,0 +1,9 @@
+.Blogpost {
+    max-width: 800px;
+    text-align: center;
+    margin: 1rem auto;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    box-shadow: 0 0 10px gray;
+    border-radius: 6px;
+}

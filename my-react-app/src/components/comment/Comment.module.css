@@ -1,0 +1,81 @@
+.comment{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 0.5rem;
+}   
+
+.comment h2{
+    padding: 1rem;
+    padding-left:2rem;
+    text-align: left;
+}
+.comment input{
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 200px;
+    margin: 0 auto;
+    margin-left: 4rem;
+}
+
+.comment input:hover{
+    border: 1px solid black;
+}
+
+.comment textarea{
+    display: block;
+    height: 100px;
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 4rem;
+}
+
+.comment textarea:hover{
+    border:1px solid black;
+}
+
+.comment button{
+    padding:0.5rem 1.5rem;
+    background-color: gold;
+    color:white;
+    border-radius: 1rem;
+    border:none;
+    margin-top: 0.5rem;
+    margin-left: 4rem;
+    max-width: fit-content;
+}
+
+.comment button:hover{
+    background-color: goldenrod;
+    text-decoration: none;
+}
+
+.comment h3{
+    padding: 1rem;
+    padding-left:2rem;
+    text-align: left;
+    margin-top: 1rem;
+}
+.comment p:nth-child(5){
+    color: gray;
+    margin: 2rem;
+}
+
+.comment ul{
+    text-align: left;
+    padding-left:5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.comment li{
+    padding:0.5rem;
+}
+
+
+

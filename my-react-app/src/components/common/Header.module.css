@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: 50px;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.header li, a, button{
+    padding: 1rem 2rem;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header li:hover, button:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.header button{
+    display: block;
+    border-radius: 5px;
+    border: none;
+}
+
