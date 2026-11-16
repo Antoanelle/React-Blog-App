@@ -5,7 +5,7 @@ import IndividualPostPage from './components/IndividualPostPage';
 import ContactPage from './components/contact/ContactPage';
 import BlogPostsPage from './components/homepage/BlogPostsPage'
 import PostList from './components/postList/PostList';
-import CommonLayout from './layouts/commonLayout';
+import CommonLayout from './layouts/CommonLayout';
 
 function App() {
   return (
